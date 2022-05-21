@@ -1,31 +1,31 @@
 {
-  "name": "@sebastienrousseau/prettier-config",
-  "version": "0.0.1",
-  "description": "Prettier Configuration Files and rules",
-  "keywords": [
-    "prettier"
-  ],
-  "author": "Sebastien Rousseau <sebastienrousseau@users.noreply.github.com>",
-  "homepage": "https://crypto-service.dev",
-  "license": "ISC",
-  "main": "index.js",
-  "files": [
-    "index.js"
-  ],
-  "publishConfig": {
-    "access": "public"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sebastienrousseau/crypto-service.git"
-  },
-  "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
-  },
-  "bugs": {
-    "url": "https://github.com/sebastienrousseau/crypto-service/issues"
-  },
-  "devDependencies": {
-    "prettier": "^2.6.2"
-  }
+    "author": "Sebastien Rousseau <sebastienrousseau@users.noreply.github.com>",
+    "bugs": {
+        "url": "https://github.com/sebastienrousseau/prettier-config/issues"
+    },
+    "description": "Prettier Configuration Files and rules",
+    "devDependencies": {
+        "prettier": "^2.6.2"
+    },
+    "files": [
+        "index.js"
+    ],
+    "homepage": "https://prettier-config.dev",
+    "keywords": [
+        "prettier"
+    ],
+    "license": "ISC",
+    "main": "index.js",
+    "name": "@sebastienrousseau/prettier-config",
+    "publishConfig": {
+        "access": "public"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sebastienrousseau/prettier-config.git"
+    },
+    "scripts": {
+        "test": "echo \"Error: run tests from root\" && exit 1"
+    },
+    "version": "0.0.2"
 }
