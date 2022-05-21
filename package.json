@@ -8,7 +8,7 @@
         "prettier": "^2.6.2"
     },
     "files": [
-        "index.js"
+        "index.json"
     ],
     "homepage": "https://prettier-config.dev",
     "keywords": [
@@ -27,5 +27,5 @@
     "scripts": {
         "test": "echo \"Error: run tests from root\" && exit 1"
     },
-    "version": "0.0.2"
+    "version": "0.0.3"
 }
