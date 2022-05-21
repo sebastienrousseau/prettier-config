@@ -1,6 +1,6 @@
 {
   "name": "@sebastienrousseau/prettier-config",
-  "version": "0.0.2",
+  "version": "0.0.1",
   "description": "Prettier Configuration Files and rules",
   "keywords": [
     "prettier"
@@ -10,7 +10,7 @@
   "license": "ISC",
   "main": "index.js",
   "files": [
-    "lib"
+    "index.js"
   ],
   "publishConfig": {
     "access": "public"
