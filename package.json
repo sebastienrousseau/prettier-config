@@ -34,7 +34,8 @@
     "index.cjs",
     "index.d.ts",
     "prettier-config.svg",
-    "LICENSE"
+    "LICENSE",
+    ".editorconfig"
   ],
   "publishConfig": {
     "access": "public"
