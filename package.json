@@ -1,31 +1,50 @@
 {
-    "author": "Sebastien Rousseau <sebastienrousseau@users.noreply.github.com>",
-    "bugs": {
-        "url": "https://github.com/sebastienrousseau/prettier-config/issues"
-    },
-    "description": "Prettier Configuration Files and rules",
-    "devDependencies": {
-        "prettier": "^2.6.2"
-    },
-    "files": [
-        "index.js"
-    ],
-    "homepage": "https://prettier-config.dev",
-    "keywords": [
-        "prettier"
-    ],
-    "license": "ISC",
-    "main": "index.js",
-    "name": "@sebastienrousseau/prettier-config",
-    "publishConfig": {
-        "access": "public"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/sebastienrousseau/prettier-config.git"
-    },
-    "scripts": {
-        "test": "echo \"Error: run tests from root\" && exit 1"
-    },
-    "version": "0.0.4"
+  "name": "@sebastienrousseau/prettier-config",
+  "version": "1.0.0",
+  "description": "Shareable Prettier configuration rules adhering to modern formatting standards",
+  "author": "Sebastien Rousseau <sebastienrousseau@users.noreply.github.com>",
+  "license": "ISC",
+  "homepage": "https://github.com/sebastienrousseau/prettier-config#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebastienrousseau/prettier-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sebastienrousseau/prettier-config/issues"
+  },
+  "keywords": [
+    "prettier",
+    "prettierconfig",
+    "code-formatter",
+    "style-guide"
+  ],
+  "main": "./index.cjs",
+  "module": "./index.mjs",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.mjs",
+      "require": "./index.cjs"
+    }
+  },
+  "files": [
+    "index.js",
+    "index.mjs",
+    "index.cjs",
+    "index.d.ts"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "node test/test.js",
+    "lint": "node test/test.js"
+  },
+  "peerDependencies": {
+    "prettier": ">=3.0.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.0"
+  }
 }
