@@ -1,7 +1,7 @@
 <!-- SPDX-License-Identifier: ISC -->
 
 <p align="center">
-  <img src="https://cloudcdn.pro/prettier-config/v1/logos/prettier-config.svg" alt="prettier-config logo" width="128" />
+  <img src="./prettier-config.svg" alt="prettier-config logo" width="128" />
 </p>
 
 <h1 align="center">@sebastienrousseau/prettier-config</h1>
