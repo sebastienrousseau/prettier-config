@@ -1,6 +1,6 @@
 {
   "name": "@sebastienrousseau/prettier-config",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Shareable Prettier configuration rules adhering to modern formatting standards",
   "author": "Sebastien Rousseau <sebastienrousseau@users.noreply.github.com>",
   "license": "ISC",
