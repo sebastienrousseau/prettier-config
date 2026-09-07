@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use @sebastienrousseau/prettier-config in your work, please cite it as below."
+title: "@sebastienrousseau/prettier-config"
+type: software
+authors:
+  - family-names: Rousseau
+    given-names: Sebastien
+    email: sebastian.rousseau@gmail.com
+repository-code: "https://github.com/sebastienrousseau/prettier-config"
+url: "https://github.com/sebastienrousseau/prettier-config"
+license: "Apache-2.0 OR MIT"
+version: 0.0.3
+date-released: "2026-09-07"
+abstract: >-
+  Shareable Prettier configuration rules adhering to modern formatting standards
