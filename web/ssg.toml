@@ -1,7 +1,7 @@
 site_name = "prettier-config"
 site_title = "@sebastienrousseau/prettier-config — Shareable Prettier configuration rules adhering to modern formatting standards"
 site_description = "Shareable Prettier configuration rules adhering to modern formatting standards"
-base_url = "https://config.sebastienrousseau.com/prettier-config"
+base_url = "https://sebastienrousseau.com/prettier-config/"
 language = "en-GB"
 
 content_dir = "web/content"
