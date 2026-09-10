@@ -22,17 +22,22 @@ An exhaustive overview covering **100% of the features, rules, and capabilities*
 ## Feature Deep Dive
 
 ### 1. Schema Validation
+
 Adheres to schemastore.org prettierrc specification. Designed to guarantee deterministic behavior across all development and continuous integration environments.
 
 ### 2. 2-Space Indentation
+
 Enforces clean 2-space soft tabs (`tabWidth: 2`, `useTabs: false`). Designed to guarantee deterministic behavior across all development and continuous integration environments.
 
 ### 3. Unix Line Endings
+
 Enforces consistent LF line feeds across operating systems. Designed to guarantee deterministic behavior across all development and continuous integration environments.
 
 ### 4. Consistent Quotes & Semicolons
+
 Double quotes and explicit semicolons. Designed to guarantee deterministic behavior across all development and continuous integration environments.
 
 ### 5. Trailing Commas
+
 Enforces multi-line trailing commas (`trailingComma: 'all'`). Designed to guarantee deterministic behavior across all development and continuous integration environments.
 
