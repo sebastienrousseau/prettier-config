@@ -1,16 +1,14 @@
+// SPDX-FileCopyrightText: 2026 Sebastien Rousseau <sebastian.rousseau@gmail.com>
+// SPDX-License-Identifier: Apache-2.0 OR MIT
+
 /**
- * Prettier ESM Configuration
- * @type {import('prettier').Config}
+ * ESM entrypoint.
+ *
+ * The configuration is defined once, in `index.cjs`, and re-exported here so the
+ * two module systems cannot drift apart. Node resolves a CommonJS default import
+ * to `module.exports`, which is exactly the value consumers of the CJS entry get.
  */
-export default {
-  $schema: "http://json.schemastore.org/prettierrc",
-  arrowParens: "always",
-  bracketSpacing: true,
-  endOfLine: "lf",
-  printWidth: 80,
-  semi: true,
-  singleQuote: false,
-  tabWidth: 2,
-  trailingComma: "all",
-  useTabs: false,
-};
+
+import config from "./index.cjs";
+
+export default config;
