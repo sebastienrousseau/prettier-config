@@ -1,0 +1,18 @@
+Source: node-sebastienrousseau-prettier-config
+Section: javascript
+Priority: optional
+Maintainer: Sebastien Rousseau <sebastian.rousseau@gmail.com>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.7.0
+Homepage: https://github.com/sebastienrousseau/prettier-config
+Rules-Requires-Root: no
+
+Package: node-sebastienrousseau-prettier-config
+Architecture: all
+Depends: ${misc:Depends}, nodejs (>= 20)
+Description: Shareable Prettier configuration rules adhering to modern formatting standards
+ @sebastienrousseau/prettier-config is a shareable configuration preset with no runtime
+ dependencies: inert data plus a loader.
+ .
+ Installed under /usr/share/nodejs so that require() resolves it without
+ further configuration.
