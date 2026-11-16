@@ -6,7 +6,7 @@
 class PrettierConfig < Formula
   desc "Shareable Prettier configuration rules adhering to modern formatting standards"
   homepage "https://github.com/sebastienrousseau/prettier-config"
-  url "https://registry.npmjs.org/@sebastienrousseau/prettier-config/-/prettier-config-0.0.7.tgz"
+  url "https://registry.npmjs.org/@sebastienrousseau/prettier-config/-/prettier-config-0.0.9.tgz"
   license any_of: ["Apache-2.0", "MIT"]
 
   depends_on "node"
